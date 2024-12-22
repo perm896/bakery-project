@@ -1,0 +1,385 @@
+/* the start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.settings{
+    height: 80px;
+    width: 40px;
+    background-color: white;
+    border-radius: 15px;
+    position: fixed;
+    right:0;
+    top: 50%;
+    text-align: center;
+    
+}
+.settings i{
+    padding:10px 0px ; 
+    font-size: 18px;
+    color: grey;
+    
+}
+.settings i:hover{
+    color: blue;
+}
+
+
+/* beggining */
+.c{
+   background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+ 
+    text-align: center;
+    color: rgb(255, 255, 255);
+ padding-top: 200;
+
+}
+.c h1{
+    padding: 10px 0px;
+}
+/* essentials */
+
+
+
+/* buttons */
+.c button{
+   
+    background-color: rgb(227, 173, 173);
+    
+    height: 50px;
+    width: 110px;
+    color: rgb(255, 255, 255);
+    border-radius:20% ;
+    border: none;
+}
+
+
+/* buttons */
+.c .v{
+    margin-left: 1px;
+    background-color: transparent;
+    border: 2px rgb(255, 255, 255) solid;
+   
+}
+/* buttons hover design */
+.c button:hover{
+    background: -webkit-linear-gradient(rgb(255, 252, 252), rgb(255, 254, 254));
+    transition: 1s;
+    color: black;
+}
+/* essentials */
+.h{
+    color: black;
+}
+
+
+h5{
+    color: aliceblue;
+}
+h6{
+    color: aliceblue;
+}
+a{
+    color: rgb(8, 47, 222);
+}
+/* i{
+    color: rgb(16, 0, 247);
+    margin-top: 100;
+    margin-left: 2; 
+} */
+
+
+
+/* the top button bar */
+.xy{
+   border: 40px;
+   
+    position: fixed;
+   
+   
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 20px 20px 30px 30px; */ 
+    overflow: auto;
+    padding: 5px 50px;
+}
+
+.xy img{
+    width: 150px;
+    float: left;
+}
+.xy ul{
+    float: right;
+    margin-top: 10px;
+}
+.xy ul li{
+    list-style: none;
+    display: inline;
+}
+.xy ul a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 15px;
+}
+.xy ul a:hover{
+    color: tan;
+}
+
+
+
+/* failed right bar */
+.vxm{
+    height: 90px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: fixed;
+    
+    right: 0;
+    top: 50%;
+    border: 2px color(srgb rgb(0, 0, 0));
+   
+
+}
+/* the last div(footer part of the bakery project) */
+.footer{
+    background-color: rgb(17, 17, 18);
+    width: 100%;
+  
+    padding: 30px 0px;
+    text-align: center;
+    
+
+}
+/* link icon general design */
+.footer a{
+   color: gray;
+    border-radius: 50%;
+    border: 1px white  solid;
+    
+    font-size: 20px;
+   
+    margin: 0px 10px;
+    padding: 10px ;
+
+}
+.footer h1{
+    color: grey;
+    padding: 20px 0px;
+}
+/* footer icons hover design */
+.footer a:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(12, 12, 162);
+
+}
+.footer .google:hover{
+    background-color: red;
+}
+.whoweare {
+    padding: 45px;
+    overflow: auto;
+}
+.whoweare img{
+    width: 45%;
+    float: left;
+}
+.whoweare .caption{
+      float: right;
+      width: 45%;
+     margin-top: 40px;
+}
+.whoweare .g{
+    color: rgb(114, 114, 114);
+    padding-top: 30px;
+}
+.whoweare .caption p{
+    padding-top: 25px;
+    color: grey;
+}
+.whoweare .caption i{
+    color: tan;
+    border-radius: 50%;
+    border: 1px rgb(204, 204, 204)  solid;
+    
+    font-size: 20px;
+   
+    margin-right: 10px;
+    padding: 10px ;
+}
+.clear{
+    clear: both;
+}
+.parentasset{
+    background-color: rgb(235, 234, 234);
+    height: 600px;
+}
+.asset4 img{
+    width: 45%;
+    float: right;
+    
+}
+.asset4 p{
+    padding-top: 35px;
+     color: rgb(90, 90, 90);
+}
+.assetcaption{
+    padding: 45px 0px 50px ;
+    margin-top: 20px;
+   
+}
+.asset4{
+margin-top: 45px;
+margin-right: 15px ;
+}
+
+.clear{
+    clear: both;
+}
+.parentfour{
+    overflow: auto;
+     padding: 50px;
+     text-align: center;
+}
+.parentfour .asset{
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.parentfour .asset img{
+    width: 100%;
+}
+.worldmap{
+ overflow: auto;
+ background-color: rgb(214, 214, 214);
+ padding: 50px;
+}
+
+.worldmap .worldmapcaption{
+width: 45%;
+float: left;
+margin-right: 130px;
+
+
+}
+.worldmap iframe{
+    width: 45%;
+}
+.worldmap .worldmapcaption h4{
+    font-size: 35px;
+}
+.worldmap .worldmapcaption p{
+    padding: 15px 0px;
+    color: rgb(58, 58, 58);
+}
+.worldmap .worldmapcaption i{
+    color: white;
+    background-color: tan;
+   
+    border-radius: 50%;
+    border: 1px rgb(204, 204, 204)  solid;
+    
+    font-size: 20px;
+   
+    margin-right: 10px;
+    padding: 10px ;
+}
+.r{
+    overflow: auto;
+    padding: 50px;
+    background-color: black;
+}
+.r .details{
+  width: 25%;
+  float: left;
+}
+
+.r .details p{
+   color: grey;
+   padding-top: 20px;
+}
+/* doesnt work */
+ /* /* img th{
+   
+    float: left;
+}
+
+ 
+h4{
+    
+float:left;
+}
+.parent g{
+    overflow: auto;
+    
+}
+
+
+.test1{
+   
+    float: right;
+}
+
+.parentfour{
+    
+    overflow: auto;
+}
+.clear{
+    clear: both;
+} 
+
+
+
+
+
+
+
+
+
+/* the end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* */
